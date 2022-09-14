@@ -10,6 +10,7 @@
     "test:dev": "mocha -r ts-node/register src/tests/unit/**/*.test.ts --exit -t 60000",
     "test:coverage": "nyc npm run test:dev"
   },
+  
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@jest/test-sequencer": "27.5.1",
