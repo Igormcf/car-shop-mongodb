@@ -1,3 +1,4 @@
+/* import { isValidObjectId } from 'mongoose'; */
 import IService from '../interfaces/IService';
 import { ICar, CarSchema } from '../interfaces/ICar';
 import { IModel } from '../interfaces/IModel';
@@ -30,8 +31,6 @@ class CarService implements IService<ICar> {
 
   public async readOne(_id: string): Promise<ICar | null> {
     const car = await this._car.readOne(_id);
-
-    /* if (!cars) throw new Error(ErrorTypes.algumacoisa); */
 
     return car;
   }
