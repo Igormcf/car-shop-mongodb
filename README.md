@@ -1,7 +1,7 @@
 # Car Shop MongoDB
 
 ## Sobre o projeto:
-Neste projeto, apliquei os princípios de Programação Orientada a Objetos `(POO)` para a construção de uma `API` com `CRUD` para gerenciar uma concessionária de veículos (carros e motos). Para tal, foi utilizado o banco de dados `MongoDB`. Além disso, foi utilizado a lib `zod` para validação dos dados informados no `body` das requisições. Ainda, também foram realizados `testes unitários` em todas as camadas da aplicação (`models`, `services` e `controllers`) com uma cobertura de **100%** das linhas de códigos.
+Neste projeto, apliquei os princípios de Programação Orientada a Objetos `(POO)` para a construção de uma `API` com `CRUD` para gerenciar uma concessionária de veículos (carros e motos). Para tal, foi utilizado o banco de dados `MongoDB` e a `ODM` **(Object Document Mapping)** `Mongoose`, na interação e a manipulação dos dados. Além disso, foi utilizado a lib `zod` para validação dos dados informados no `body` das requisições. Ainda, também foram realizados `testes unitários` em todas as camadas da aplicação (`models`, `services` e `controllers`) com uma cobertura de **100%** das linhas de códigos.
 
 ## Orientações para a execução:
 <details>
